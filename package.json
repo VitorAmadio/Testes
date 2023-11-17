@@ -1,0 +1,17 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "Testes com mocha e chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'tests/**/*.test.js'"
+  },
+  "author": "Vitor",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
